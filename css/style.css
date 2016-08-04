@@ -1,0 +1,195 @@
+body{
+margin-top:0px;
+margin-left:0px;
+font-family:cambria;
+/*background-color:#D8D8D8;*/
+}
+
+.cabecera{
+clear: both;
+height: 77px;
+width:100%;
+background:url('../imagenes/cabecera.jpg');
+background-repeat: repeat;
+/*#text-align: left;*/
+}
+
+.footer{
+width:100%;
+clear: both;
+height: 100%;
+background:url('../imagenes/cabecera.jpg');
+background-repeat: repeat;
+text-align: left;
+color: lightgrey; 
+font-size:10px;
+text-align:center;
+margin: 30px 0 0 0; 
+font-weight:bolder;
+}
+
+
+	.imagen{
+    width: 60px;
+    height: 60px;
+	border:0px;
+    
+}
+.imagen2{
+    width: 18px;
+    height: 18px;
+    
+}
+.elimEdit{
+    width: 18px;
+    height: 18px;
+    
+}
+.logo{
+	clear: both;
+	height: 117px;
+	padding: 0;
+	width: 100%;
+	/*width: 780px;*/
+	border:1px solid lightgrey;
+	background:url('../imagenes/konecta4.jpg') white;
+    color: #333;
+	background-repeat: no-repeat;
+}
+.logo1{
+clear: both;
+height: 27px;
+
+background:url('../imagenes/cabecera.jpg')  repeat-x scroll 0 0 white;
+background-repeat: repeat;
+text-align: left;
+margin: -20px -100px 0 0px; 
+padding: 0 0 50px 0;
+	
+}
+
+
+
+
+
+
+.subtitulo{
+    font-family: verdana;
+    font-size: 14px;
+    color: royalblue;
+	font-weight: bolder;
+}
+.titulo{
+    font-family: verdana;
+    font-size: 18px;
+    color: grey;
+	font-weight: bolder;
+}
+.titulo2{
+    font-family: verdana;
+    font-size: 14px;
+    color: grey;
+	font-weight: bolder;
+}
+.tabla{
+    font-size: 12px;
+    font-family: verdana;
+	border-collapse:collapse;
+	
+}
+.tabla th{
+background-color: #0F6CAE;
+color: white;
+    text-align:center;
+
+}
+.tablaMenu{
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 0;
+	font-weight: bolder;
+}
+.tabla2{
+    font-size: 12px; 
+ font-family: verdana;
+	border-collapse:collapse; 
+}
+.tabla2 th{
+background-color: #0F6CAE;
+color: white;
+
+
+}
+.tabla2 td{
+width: 65%;
+}
+.texto{
+width: 260px;
+}
+.cbo{
+width: 265px;
+}
+.texto2{
+width: 225px;
+}
+.cbo2{
+width: 230px;
+}
+.tabla3{
+    font-size: 12px; 
+ font-family: verdana;
+	border-collapse:collapse; 
+
+}
+.tabla3 th{
+background-color: #0F6CAE;
+color: white;
+width: 250px;
+
+}
+.texto3{
+width: 170px;
+}
+
+
+/*for warning msg*/
+#growl {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  width: 320px;
+  z-index: 10;
+}
+
+.notice {
+  position: relative;
+  min-height: 30px;
+}
+
+.skin {
+  position: absolute;
+  background-color: #000000;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+.close {
+  background: transparent url('../imagenes/egrowl.png') 0 0 no-repeat;
+  text-indent: -9999px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 26px;
+  height: 26px;
+}
+
+#growl p {
+  background: inherit;
+  color: #FFF;
+}

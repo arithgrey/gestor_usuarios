@@ -1,0 +1,50 @@
+.table-header{
+	//background: #26445F;
+	background:rgb(15, 62, 84);;
+	color: white;
+}
+.title-k{
+	background: grey;
+}
+.posicion_edit:hover{
+	cursor: pointer;
+	//padding: 1px;
+}
+#section-pasillos{
+	overflow-x: scroll;
+}
+
+
+.primero,.segundo {
+		display:none;
+		padding:5px;
+		border:1px solid #ccc;
+		background-color:#f1f1f1;
+		position:relative;
+		width:200px;
+	}
+	#segundo {
+		position:absolute;
+		top:100px;
+	}
+	
+	#primero:hover .primero {
+		display:block;
+	}
+	#segundo:hover .segundo {
+		display:block;
+	}
+	.elimina-posicion{
+		
+		//background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
+		//background: #A56E6C;
+		//color: white;padding: 2px; 
+		//margin-left:1px;
+	}
+	.elimina-posicion:hover{
+		cursor: pointer;	
+	}
+	.num-puesto{
+		background: #105367;color: white;padding: 10px;
+	}
+	

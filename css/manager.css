@@ -1,0 +1,88 @@
+.titulo{
+	height: 25px;
+	color:#ffffff;
+	background-color:#0F6CAE;
+}
+
+.konecta{
+	
+	clear: both;
+	padding: 0;
+	width: 846px;
+	height: 90PX;
+	border:1px solid green;
+	background:url('../css/konecta.jpg') white;
+    color: #333;
+}
+body{
+  
+  background:#ffffff;
+
+  color:#000000;
+  }
+  
+  #wrapper{
+  
+    background:#FFF;
+	width:500px;
+	padding:10px 15px;
+	margin:20px auto;
+  
+  }
+ 
+  a{
+     outline:none;
+     text-decoration:none;
+	 color:#17375D;
+	 font-weight:bold;
+  }
+  
+   #logo{
+  
+   background:url("img/logo.gif") top left no-repeat;
+   height:45px;
+   margin-left:5px;
+  } 
+  
+  #nav ul li ul li{
+    
+	margin-bottom:3px;
+  
+  }
+  #nav ul span{
+  
+    color:orange;
+  }
+   
+  .float-right{ float:right;}
+  
+  
+dl{
+width:750px;
+margin:auto;
+}
+dt{
+cursor:pointer;
+font-weight:bold;
+font-size:1.5em;
+line-height:2em;
+background: #e3e3e3; /*#0F6CAE*/
+border-bottom:1px solid #c5c5c5;
+border-top:1px solid white;
+font-style:italic;
+text-align:center;
+color:#0F6CAE;
+}
+dd{
+margin:0;
+padding:1em 0;
+}
+
+dt:first-child { border-top: none; }
+dt:nth-last-child(2) { border-bottom: none; }
+.span{
+font-weight:bold;
+color:red;
+
+}
+.hide { display: none;}
